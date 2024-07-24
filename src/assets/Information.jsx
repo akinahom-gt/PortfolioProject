@@ -2,7 +2,7 @@ import React from "react";
 
 const Information = () => {
   return (
-    <div className="flex items-center justify-center py-9  ">
+    <div className="grid grid-col lg:flex items-center justify-center py-9  ">
       <div className="grid grid-col text-white space-y-4 items-center justify-center">
         <h1 className="text-[60px] font-bold">Brittany Chiang</h1>
         <h2 className="text-[20px] font-semibold">Senior Frontend Developer</h2>
