@@ -9,14 +9,7 @@ function App() {
     <>
       <div className="bg-[#0f172a] hscreen ">
         <Information />
-        {/* <About/>
-        <Experience/> */}
-        {/* <BrowserRouter>
-          <Routes>
-            <Route path="/about" element={<About />}></Route>
-            <Route path="/" element={<Information />}></Route>
-          </Routes>
-        </BrowserRouter> */}
+        
       </div>
     </>
   );

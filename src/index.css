@@ -1,7 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@layer components {
+    .mouse-aura {
+      @apply fixed inset-0 pointer-events-none;
+      background-image: radial-gradient(
+        circle at var(--mouse-x) var(--mouse-y),
+        rgba(63, 81, 181, 0.3) 0%,
+        rgba(63, 81, 181, 0.15) 30%,
+        rgba(63, 81, 181, 0) 50%
+      );
+    }
+}
 @layer utilities {
     .links{
         @apply text-gray-600 font-bold
