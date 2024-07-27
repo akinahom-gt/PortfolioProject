@@ -7,7 +7,7 @@ import Experience from "./assets/Experience";
 function App() {
   return (
     <>
-      <div className="bg-[#0f172a] h-full overscroll-none ">
+      <div className="bg-[#0f172a] hscreen ">
         <Information />
         {/* <About/>
         <Experience/> */}

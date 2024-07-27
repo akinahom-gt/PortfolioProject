@@ -25,7 +25,7 @@ const Information = () => {
               smooth={true}
               offset={-100}
               duration={500}
-              className="links px-2 hover:text-white hover:font-bold hover:px-9"
+              className="links cursor-pointer px-2 hover:text-white hover:font-bold hover:px-9"
             >
               <li>ABOUT</li>
             </Link>
@@ -35,7 +35,7 @@ const Information = () => {
               smooth={true}
               offset={-10}
               duration={500}
-              className="links px-2 hover:text-white hover:font-bold hover:px-9"
+              className="links cursor-pointer px-2 hover:text-white hover:font-bold hover:px-9"
             >
               <li>EXPERIENCE</li>
             </Link>
@@ -45,12 +45,12 @@ const Information = () => {
               smooth={true}
               offset={-10}
               duration={500}
-              className="links px-2 hover:text-white hover:font-bold hover:px-9"
+              className="links cursor-pointer px-2 hover:text-white hover:font-bold hover:px-9"
             >
               <li>PROJECTS</li>
             </Link>
           </ul>
-          <div className="flex gap-9 py-7 bottom-[-380px] absolute text-gray-500">
+          <div className="flex gap-9 py-7 bottom-[-340px] absolute text-gray-500">
             <Github className="hover:text-white" />
             <Linkedin className="hover:text-white" />
             <Codepen className="hover:text-white" />
