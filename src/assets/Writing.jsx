@@ -14,23 +14,27 @@ const Writing = () => {
           </div>
           <div>
             <h2 className="text-gray-500 font-semibold">2020</h2>
-            <h2 className="font-bold flex text-lg hover:text-[#45aea4] py-3">
-              Integrating Algolia Search with WordPress Multisite
-              <ArrowUpRight size={20} />
-            </h2>
+            <div className="font-bold text-[16px] hover:text-[#45aea4]">
+              <h2 className="flex">
+                Integrating Algolia Search with WordPress<br></br>
+              </h2>
+              <h2 className="flex gap-1">
+                Multisite <ArrowUpRight size={17} className="mt-1"/>
+              </h2>
+            </div>
           </div>
         </div>
-
         <div className="flex gap-9 w-[700px] h-[150px]">
           <div className="w-[100px]">
             <img src={six} alt="" />
           </div>
           <div>
             <h2 className="text-gray-500 font-semibold">2019</h2>
-            <h2 className="font-bold flex hover:text-[#45aea4] text-lg py-3">
-              Building a Headless Mobile App CMS From Scratch
-              <ArrowUpRight size={20} />
-            </h2>
+            <div className="font-bold text-[16px] hover:text-[#45aea4]">
+              <h2 className="flex">Building a Headless Mobile App CMS From</h2>
+              <h2 className="flex gap-1">Scratch<ArrowUpRight size={17} className="mt-1"/>
+              </h2>
+            </div>
           </div>
         </div>
         <h2 className="w-[500px]">
