@@ -5,7 +5,7 @@ const experience = () => {
   return (
     <div id="experience" className="grid grid-col space-y-8 text-white px-4">
       <h1 className="uppercase font-bold lg:hidden">Experience</h1>
-      <div className=" grid grid-col lg:flex gap-9 w-[700px] h-[320px]">
+      <div className=" grid grid-col lg:flex gap-9 w-[650px] h-[350px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50">
         <div>
           <h2 className="text-gray-500">2023 — March 2024</h2>
         </div>

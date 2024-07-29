@@ -4,12 +4,11 @@ import { Mail } from "lucide-react";
 
 const Writing = () => {
   return (
-    <div>
-      <div id="#contact" className="grid grid-col space-y-9 text-white px-4">
-        <h1 className="uppercase font-bold lg:hidden">Contact</h1>
+      <div className="grid grid-col space-y-9 text-white px-4">
+        <h1 className="uppercase font-bold lg:hidden ">Contact</h1>
         <div className="w-[700px] h-[350px]">
-          <h1 className="text-[46px] font-bold">Get In Touch</h1>
-          <h2 className="text-gray-500 w-[450px] h-[100px] py-5">
+          <h1 id="#writing" className="text-[46px] font-bold py-9">Get In Touch</h1>
+          <h2 className="text-gray-500 w-[450px] h-[100px] ">
             I'm always on the lookout for new opportunities and my inbox is open
             for all.
           </h2>
@@ -27,7 +26,6 @@ const Writing = () => {
           with ReactJs and Tailwind CSS, deployed with Vercel.
         </h2>
       </div>
-    </div>
   );
 };
 

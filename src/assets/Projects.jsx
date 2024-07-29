@@ -7,7 +7,7 @@ const projects = () => {
   return (
     <div id="projects" className="grid grid-col space-y-9 text-white px-4">
       <h1 className="uppercase font-bold lg:hidden">Projects</h1>
-      <div className="flex gap-9 w-[700px] h-[230px]">
+      <div className="flex gap-9 w-[630px] h-[260px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50">
         <div className="w-[120px]">
           <img src={recipe} alt="" />
         </div>
@@ -39,8 +39,8 @@ const projects = () => {
         </div>
       </div>
 
-      <div className="flex gap-9 w-[700px] h-[250px]">
-        <div className="w-[120px]">
+      <div className="flex gap-9 w-[600px] h-[230px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50 ">
+        <div className="w-[1120px]">
           <img src={portfolio} alt="" />
         </div>
         <div>

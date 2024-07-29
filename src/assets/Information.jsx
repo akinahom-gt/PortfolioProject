@@ -8,15 +8,15 @@ import { Link } from "react-scroll";
 
 const Information = () => {
   return (
-    <div className="grid grid-col lg:flex text-left justify-center py-[100px] gap-[150px] ">
-      <aside class="top-[100px] self-start sticky">
+    <div className="grid grid-col items-center lg:flex text-left lg:justify-center py-[100px] gap-[150px] ">
+      <aside class="top-[100px] lg:self-start lg:sticky">
         <div className="flex flex-col text-white">
           <h1 className="text-[60px] font-bold">Akinahom Getahun</h1>
           <h2 className="text-[20px] font-semibold">Frontend Developer</h2>
           <h3 className="text-[16px] text-gray-500 font-semibold lg:w-[300px] py-7">
             I build pixel-perfect, engaging, and accessible digital experiences.
           </h3>
-          <ul className="grid lg:grid-col gap-6 lg:text-[14px] py-10 px-12">
+          <ul className="lg:grid lg:grid-col gap-6 lg:text-[14px] py-10 px-12 hidden">
             <Link
               to="about"
               spy={true}
@@ -48,7 +48,7 @@ const Information = () => {
               <li>PROJECTS</li>
             </Link>
             <Link
-              to="contact"
+              to="#writing"
               spy={true}
               smooth={true}
               offset={-10}
