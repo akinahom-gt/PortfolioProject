@@ -15,7 +15,7 @@ const Information = () => {
           <h1 className="text-[60px] font-bold ">Akinahom Getahun</h1>
           <h2 className="text-[20px] font-semibold">Frontend Developer</h2>
           <h3 className="text-[16px] text-gray-500 font-semibold lg:w-[300px] py-7">
-            I build pixel-perfect, engaging, and accessible digital experiences.
+            Creating functional and visually stunning websites.
           </h3>
           <ul className="lg:grid lg:grid-col gap-6 lg:text-[14px] py-10 px-12 hidden">
             <Link
@@ -80,7 +80,7 @@ const Information = () => {
         <Experience />
         <Projects />
         <Writing />
-        <AnimatedCursor/>
+        {/* <AnimatedCursor /> */}
       </main>
     </div>
   );

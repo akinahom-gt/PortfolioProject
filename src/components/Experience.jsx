@@ -5,7 +5,7 @@ const experience = () => {
   return (
     <div id="experience" className="grid grid-col space-y-8 text-white px-4">
       <h1 className="uppercase font-bold lg:hidden">Experience</h1>
-      <div className=" grid grid-col lg:flex gap-9 w-[650px] h-[350px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50">
+      <div className=" grid grid-col lg:flex gap-9 w-[650px] h-[390px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50">
         <div>
           <h2 className="text-gray-500">2023 — March 2024</h2>
         </div>
@@ -16,13 +16,14 @@ const experience = () => {
           </h2>
 
           <h2 className="text-gray-500 font-semibold lg:w-[430px] py-2">
-            Build, style, and ship high-quality websites, design systems, mobile
-            apps, and digital experiences for a diverse array of projects for
-            clients including Harvard Business School, Everytown for Gun Safety,
-            Pratt Institute, Koala Health, Vanderbilt University, The 19th News,
-            and more. Provide leadership within engineering department through
-            close collaboration, knowledge shares, and spearheading the
-            development of internal tools.
+            Worked closely with UX/UI designers to translate visual concepts
+            into functional web interfaces, ensuring alignment between design
+            specifications and final implementation. Coordinated with backend
+            developers to integrate server-side logic with front-end
+            functionality, enabling dynamic content and interactive features.
+            Participated in regular team meetings and code reviews to streamline
+            workflows, address challenges, and maintain high standards of
+            quality throughout the development process.
           </h2>
           <div className="flex flex-wrap text-[#45aea4] text-center text-sm font-bold gap-2 py-4">
             <div className="w-[70px] h-[35px] bg-[#112b3a] py-1 rounded-[60px]">
@@ -35,7 +36,7 @@ const experience = () => {
         </div>
       </div>
       <a
-        href="https://drive.google.com/file/d/1LEIBVvRSeccx_PpIbikuPA6wfLapJsHD/view?usp=sharing"
+        href="https://drive.google.com/file/d/1xShTkD4o62MB6_oA9c75eWDPgADnfGbD/view?usp=sharing"
         className="font-bold h-[100px] flex gap-1 hover:text-[#45aea4]"
       >
         View Full Résumé
