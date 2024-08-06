@@ -21,10 +21,7 @@ const Writing = () => {
             <Mail size={20} className="mx-4 mt-1 text-[#58e3c4]" /> Email Me
           </button>
         </div>
-        <h2 className="w-[500px] py-7">
-          Based on Brittany Chiang's website. Coded in Visual Studio Code. Built
-          with ReactJs and Tailwind CSS, deployed with Vercel.
-        </h2>
+        
       </div>
   );
 };

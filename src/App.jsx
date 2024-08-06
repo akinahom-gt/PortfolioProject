@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import About from "./assets/About";
-import Information from "./assets/Information";
-import Experience from "./assets/Experience";
+import About from "./components/About";
+import Information from "./components/Information";
+import Experience from "./components/Experience";
 
 function App() {
   return (

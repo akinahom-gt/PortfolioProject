@@ -1,7 +1,7 @@
 import React from "react";
 import { ArrowUpRight, Star, Download, ArrowRight } from "lucide-react";
-import recipe from "../images/recipe.jpg";
-import portfolio from "../images/portfolio.jpg";
+import recipe from "../assets/images/recipe.jpg";
+import portfolio from "../assets/images/portfolio.jpg";
 
 const projects = () => {
   return (

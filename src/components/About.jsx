@@ -4,7 +4,7 @@ const about = () => {
   return (
     <div id="about" className="text-white px-4  ">
       <h1 className="uppercase font-bold lg:hidden">About</h1>
-      <h2 className="py-6 text-lg text-gray-500 w-[400px] lg:w-[550px] h-[600px]">
+      <h2 className="py-6 text-lg text-gray-500 flex- flex-wrap lg:w-[550px] h-[600px]">
         Back in 2012, I decided to try my hand at creating custom Tumblr themes
         and tumbled head first into the rabbit hole of coding and web
         development. Fast-forward to today, and I’ve had the privilege of
