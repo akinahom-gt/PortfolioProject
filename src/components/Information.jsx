@@ -75,8 +75,8 @@ const Information = () => {
         </div>
       </aside>
 
-      <main class="col-span-6">
-        <About />
+      <main class="">
+        <About  />
         <Experience />
         <Projects />
         <Writing />
