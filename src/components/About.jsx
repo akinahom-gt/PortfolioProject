@@ -3,8 +3,8 @@ import React from "react";
 const about = () => {
   return (
     <div id="about" className="text-white px-4  ">
-      <h1 className="uppercase font-bold lg:hidden">About</h1>
-      <h2 className="py-6 text-lg text-gray-500 flex flex-wrap w-[500px] lg:w-[550px] h-[500px]">
+      <h1 className="uppercase font-bold py-7 lg:hidden">About</h1>
+      <h2 className="py-6 px-16 lg:px-0 text-lg text-gray-500  lg:w-[450px] xl:w-[550px] h-[500px] ">
         <p>
           {" "}
           I'm software engineer specializing in front-end development, my

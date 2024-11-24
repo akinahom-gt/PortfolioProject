@@ -5,15 +5,14 @@ import Projects from "./Projects";
 import Experience from "./Experience";
 import Writing from "./Writing";
 import { Link } from "react-scroll";
-import AnimatedCursor from "react-animated-cursor";
 
 const Information = () => {
   return (
-    <div className="grid grid-col lg:flex text-left items-center justify-center py-[100px] gap-[150px] ">
-      <aside class="top-[100px] lg:self-start lg:sticky">
+    <div className="grid grid-col text-center lg:flex lg:text-left items-center justify-center py-[100px] gap-[70px] ">
+      <div class=" lg:w-2/6 top-[100px] lg:self-start lg:sticky">
         <div className="flex flex-col text-white">
-          <h1 className="text-[60px] font-bold ">Akinahom Getahun</h1>
-          <h2 className="text-[20px] font-semibold">Frontend Developer</h2>
+          <h1 className="text-5xl sm:text-[60px] font-bold ">Akinahom Getahun</h1>
+          <h2 className="text-[20px] mt-4 font-semibold">Frontend Developer</h2>
           <h3 className="text-[16px] text-gray-500 font-semibold lg:w-[300px] py-7">
             Creating functional and visually stunning websites.
           </h3>
@@ -59,7 +58,7 @@ const Information = () => {
               <li>CONTACT</li>
             </Link>
           </ul>
-          <div className="flex gap-9 py-7 lg:bottom-[-340px] absolute text-gray-500">
+          <div className="flex gap-9 py-7 text-center px-[250px] mt-[180px] lg:px-0 lg:bottom-[-340px] absolute text-gray-500">
             <a href="https://github.com/akinahom-gt">
               <Github className="hover:text-white" />
             </a>
@@ -73,15 +72,16 @@ const Information = () => {
             <Send className="hover:text-white" />
           </div>
         </div>
-      </aside>
+      </div>
 
-      <main class="">
+      <div class=" lg:w-2/6">
+      
         <About  />
         <Experience />
         <Projects />
         <Writing />
         {/* <AnimatedCursor /> */}
-      </main>
+      </div>
     </div>
   );
 };

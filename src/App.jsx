@@ -7,7 +7,7 @@ import Experience from "./components/Experience";
 function App() {
   return (
     <>
-      <div className="bg-[#0f172a] hscreen ">
+      <div className="bg-[#0f172a] min-h-screen w-full overflow-x-hidden">
         <Information />
         
       </div>

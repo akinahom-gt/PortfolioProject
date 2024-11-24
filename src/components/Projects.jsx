@@ -9,7 +9,7 @@ const projects = () => {
   return (
     <div id="projects" className="grid grid-col space-y-9 text-white px-4">
       <h1 className="uppercase font-bold lg:hidden">Projects</h1>
-      <div className="grid grid-col lg:flex gap-9 w-[630px] h-[260px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50">
+      <div className="grid grid-col xl:flex gap-9 w-[450px] xl:w-[630px] h-[290px] xl:h-[260px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50">
         <div className="w-[120px]">
           <img src={recipe} alt="" />
         </div>
@@ -41,8 +41,8 @@ const projects = () => {
         </div>
       </div>
 
-      <div className=" grid grid-col lg:flex gap-9 w-[600px] h-[230px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50 ">
-        <div className="w-16 lg:w-[120px]">
+      <div className="  grid grid-col xl:flex gap-9 xl:w-[600px] h-[230px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50 ">
+        <div className="w-16 lg:w-[120px] ">
           <img src={portfolio} alt="" />
         </div>
         <div>
@@ -70,7 +70,7 @@ const projects = () => {
           </div>
         </div>
       </div>
-      <div className=" grid grid-col lg:flex gap-9 w-[600px] h-[230px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50 ">
+      <div className=" grid grid-col xl:flex gap-9 w-[450px] xl:w-[600px] h-[260px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50 ">
         <div className="w-16 lg:w-[120px]">
           <img src={nasa} alt="" />
         </div>
@@ -102,7 +102,7 @@ const projects = () => {
           </div>
         </div>
       </div>
-      <div className=" grid grid-col lg:flex gap-9 w-[600px] h-[230px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50 ">
+      <div className=" grid grid-col xl:flex gap-9 w-[450px] xl:w-[600px] h-[230px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50 ">
         <div className="w-16 lg:w-[120px]">
           <img src={fingpt} alt="" />
         </div>
