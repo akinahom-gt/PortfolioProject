@@ -1,26 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer components {
-    .mouse-aura {
-      @apply fixed inset-0 pointer-events-none;
-      background-image: radial-gradient(
-        circle at var(--mouse-x) var(--mouse-y),
-        rgba(63, 81, 181, 0.3) 0%,
-        rgba(63, 81, 181, 0.15) 30%,
-        rgba(63, 81, 181, 0) 50%
-      );
-    }
-}
+
 @layer utilities {
     .links{
         @apply text-gray-600 font-bold
     }
     .links::after{
-        @apply content-[''] bg-gray-700 h-[1px] w-[8%] items-center mt-[-12px] left-[-4px] rounded-xl absolute duration-500
+        @apply content-[''] bg-gray-700 h-[1px] w-[7%] items-center mt-[-12px] left-[-4px] rounded-xl absolute duration-500 
     }
     .links:hover::after{
         @apply w-[15%] bg-white
     }
+    .links.active::after {
+        @apply w-[15%] bg-white;
+      }
+      
+      .links.active {
+        @apply text-white px-14;
+      }
+      /* body {
+        @apply bg-[#0f172a];
+      }  */
 }
 

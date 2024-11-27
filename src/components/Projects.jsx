@@ -7,9 +7,16 @@ import fingpt from "../assets/images/fingpt.jpg";
 
 const projects = () => {
   return (
-    <div id="projects" className="grid grid-col space-y-9 text-white px-4">
-      <h1 className="uppercase font-bold lg:hidden">Projects</h1>
-      <div className="grid grid-col xl:flex gap-9 w-[450px] xl:w-[630px] h-[290px] xl:h-[260px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50">
+    <div
+      id="projects"
+      className="grid grid-col space-y-6 lg:space-y-9 text-white px-4 scroll-mt-16 "
+    >
+      <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-background/0 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+        <h1 className="text-sm font-bold uppercase tracking-widest lg:sr-only px-6">
+          Projects
+        </h1>
+      </div>
+      <div className="grid grid-col xl:flex gap-7 lg:gap-9 lg:w-[450px] xl:w-[630px] lg:h-[290px] xl:h-[260px] py-5 lg:py-8 lg:px-2 px-7 rounded-lg hover:border hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-500/70 hover:bg-slate-800/50">
         <div className="w-[120px]">
           <img src={recipe} alt="" />
         </div>
@@ -40,9 +47,8 @@ const projects = () => {
           </div>
         </div>
       </div>
-
-      <div className="  grid grid-col xl:flex gap-9 xl:w-[600px] h-[230px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50 ">
-        <div className="w-16 lg:w-[120px] ">
+      <div className="grid grid-col xl:flex gap-7 lg:gap-9 lg:w-[450px] xl:w-[630px] lg:h-[290px] xl:h-[260px] py-5 lg:py-8 lg:px-2 px-7 rounded-lg hover:border hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-500/70 hover:bg-slate-800/50">
+        <div className="w-[120px] ">
           <img src={portfolio} alt="" />
         </div>
         <div>
@@ -52,7 +58,7 @@ const projects = () => {
           >
             Portfolio <ArrowUpRight size={17} className="mt-2" />
           </a>
-          <h2 className="text-gray-500 font-semibold lg:w-[430px]">
+          <h2 className="text-gray-500 font-semibold lg:w-[430px] py-2">
             Portfolio which showcases a developer's skills, projects, and
             accomplishments with a visually appealing and user-friendly design.
           </h2>
@@ -70,8 +76,8 @@ const projects = () => {
           </div>
         </div>
       </div>
-      <div className=" grid grid-col xl:flex gap-9 w-[450px] xl:w-[600px] h-[260px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50 ">
-        <div className="w-16 lg:w-[120px]">
+      <div className="grid grid-col xl:flex gap-7 lg:gap-9 lg:w-[450px] xl:w-[630px] lg:h-[290px] xl:h-[260px] py-5 lg:py-8 lg:px-2 px-7 rounded-lg hover:border hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-500/70 hover:bg-slate-800/50">
+        <div className="w-[120px]">
           <img src={nasa} alt="" />
         </div>
         <div>
@@ -82,7 +88,7 @@ const projects = () => {
             Astronomy Picture Of The Day{" "}
             <ArrowUpRight size={17} className="mt-2" />
           </a>
-          <h2 className="text-gray-500 font-semibold lg:w-[430px]">
+          <h2 className="text-gray-500 font-semibold lg:w-[430px] py-2">
             This website delivers stunning daily astronomy photos, complete with
             informative descriptions and cosmic insights. Ideal for space
             enthusiasts, it offers a gateway to explore the universe, one
@@ -102,8 +108,8 @@ const projects = () => {
           </div>
         </div>
       </div>
-      <div className=" grid grid-col xl:flex gap-9 w-[450px] xl:w-[600px] h-[230px] py-8 px-2 rounded-lg hover:border-2 hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-300/20 hover:bg-slate-800/50 ">
-        <div className="w-16 lg:w-[120px]">
+      <div className="grid grid-col xl:flex gap-7 lg:gap-9 lg:w-[450px] xl:w-[630px] lg:h-[290px] xl:h-[260px] py-5 lg:py-8 lg:px-2 px-7 rounded-lg hover:border hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-500/70 hover:bg-slate-800/50">
+        <div className="w-[120px]">
           <img src={fingpt} alt="" />
         </div>
         <div>
@@ -113,10 +119,10 @@ const projects = () => {
           >
             FinGPT <ArrowUpRight size={17} className="mt-2" />
           </a>
-          <h2 className="text-gray-500 font-semibold lg:w-[430px]">
-            FinGPT delivers crypto insights, personalized financial
-            guidance, and AI-powered tools to help you make smart, confident
-            financial decisions.
+          <h2 className="text-gray-500 font-semibold lg:w-[430px] py-2">
+            FinGPT delivers crypto insights, personalized financial guidance,
+            and AI-powered tools to help you make smart, confident financial
+            decisions.
           </h2>
 
           <div className="flex flex-wrap text-[#45aea4] text-center text-sm font-bold gap-2 py-4">
