@@ -21,7 +21,7 @@ export default function Information() {
 
   return (
     <div
-      className="group relative  px-8 "
+      className="group relative px-8 "
       onMouseMove={handleMouseMove}
     >
       <motion.div
@@ -36,10 +36,10 @@ export default function Information() {
           `,
         }}
       />
-      <div className="lg:flex lg:text-left items-center justify-center py-[100px] gap-[70px] ">
-      <aside class="lg:w-2/6 top-[100px] lg:self-start lg:sticky">
-        <div className="flex flex-col px-10 lg:px-0  text-white">
-          <h1 className="text-5xl sm:text-[57px] font-bold ">
+      <div className="lg:flex lg:text-left items-center justify-center py-[55px] lg:py-[100px] lg:gap-[50px] xl:gap-[100px]">
+      <div class="top-[100px] lg:self-start lg:sticky ">
+        <div className="flex flex-col sm:px-10 lg:px-0 text-white">
+          <h1 className="text-5xl font-bold ">
             Akinahom Getahun
           </h1>
           <h2 className="text-[20px] mt-4 font-semibold">Frontend Developer</h2>
@@ -89,7 +89,7 @@ export default function Information() {
               <li>CONTACT</li>
             </Link>
           </ul>
-          <div className="flex gap-9 py-7  mt-[240px] sm:mt-[180px] lg:bottom-[-340px] absolute text-gray-400">
+          <div className="flex gap-9 lg:py-8 mt-[255px] xs:mt-[210px] sm:mt-[200px] lg:bottom-[-240px]  absolute text-gray-400">
             <a href="https://github.com/akinahom-gt">
               <Github className="hover:text-white" />
             </a>
@@ -103,15 +103,15 @@ export default function Information() {
             <Send className="hover:text-white" />
           </div>
         </div>
-      </aside>
+      </div>
 
-      <main class=" lg:w-2/6">
+      <div className="">
         <About />
         <Experience />
         <Projects />
         <Writing />
         {/* <AnimatedCursor /> */}
-      </main>
+      </div>
     </div>
     </div>
   );

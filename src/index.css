@@ -19,8 +19,8 @@
       .links.active {
         @apply text-white px-14;
       }
-      /* body {
+      body {
         @apply bg-[#0f172a];
-      }  */
+      } 
 }
 

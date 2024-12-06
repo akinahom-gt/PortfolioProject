@@ -9,14 +9,14 @@ const projects = () => {
   return (
     <div
       id="projects"
-      className="grid grid-col space-y-6 lg:space-y-9 text-white px-4 scroll-mt-16 "
+      className=" grid grid-col space-y-6 lg:space-y-9 text-white px-4 scroll-mt-16 "
     >
-      <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-background/0 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-        <h1 className="text-sm font-bold uppercase tracking-widest lg:sr-only px-6">
+      <div className="sticky top-0 z-20 -mx-6 mb-4 bg-background/0 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+        <h1 className="text-sm font-bold uppercase tracking-widest lg:sr-only sm:px-6">
           Projects
         </h1>
       </div>
-      <div className="grid grid-col xl:flex gap-7 lg:gap-9 lg:w-[450px] xl:w-[630px] lg:h-[290px] xl:h-[260px] py-5 lg:py-8 lg:px-2 px-7 rounded-lg hover:border hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-500/70 hover:bg-slate-800/50">
+      <div className="grid grid-col xl:flex gap-7 lg:gap-9 lg:w-[450px] xl:w-[630px] lg:h-[290px] xl:h-[260px] py-5 lg:py-8 lg:px-2 sm:px-7 rounded-lg hover:border hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-500/70 hover:bg-slate-800/50">
         <div className="w-[120px]">
           <img src={recipe} alt="" />
         </div>
@@ -47,7 +47,7 @@ const projects = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-col xl:flex gap-7 lg:gap-9 lg:w-[450px] xl:w-[630px] lg:h-[290px] xl:h-[260px] py-5 lg:py-8 lg:px-2 px-7 rounded-lg hover:border hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-500/70 hover:bg-slate-800/50">
+      <div className="grid grid-col xl:flex gap-7 lg:gap-9 lg:w-[450px] xl:w-[630px] lg:h-[290px] xl:h-[260px] py-5 lg:py-8 lg:px-2 sm:px-7 rounded-lg hover:border hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-500/70 hover:bg-slate-800/50">
         <div className="w-[120px] ">
           <img src={portfolio} alt="" />
         </div>
@@ -76,7 +76,7 @@ const projects = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-col xl:flex gap-7 lg:gap-9 lg:w-[450px] xl:w-[630px] lg:h-[290px] xl:h-[260px] py-5 lg:py-8 lg:px-2 px-7 rounded-lg hover:border hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-500/70 hover:bg-slate-800/50">
+      <div className="grid grid-col xl:flex gap-7 lg:gap-9 lg:w-[450px] xl:w-[630px] lg:h-[290px] xl:h-[260px] py-5 lg:py-8 lg:px-2 sm:px-7 rounded-lg hover:border hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-500/70 hover:bg-slate-800/50">
         <div className="w-[120px]">
           <img src={nasa} alt="" />
         </div>
@@ -108,7 +108,7 @@ const projects = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-col xl:flex gap-7 lg:gap-9 lg:w-[450px] xl:w-[630px] lg:h-[290px] xl:h-[260px] py-5 lg:py-8 lg:px-2 px-7 rounded-lg hover:border hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-500/70 hover:bg-slate-800/50">
+      <div className="grid grid-col xl:flex gap-7 lg:gap-9 lg:w-[450px] xl:w-[630px] lg:h-[290px] xl:h-[260px] py-5 lg:py-8 lg:px-2 sm:px-7 rounded-lg hover:border hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-500/70 hover:bg-slate-800/50">
         <div className="w-[120px]">
           <img src={fingpt} alt="" />
         </div>
