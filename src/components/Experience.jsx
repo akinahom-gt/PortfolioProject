@@ -12,7 +12,7 @@ const experience = () => {
           Experience
         </h1>
       </div>
-      <div className="grid grid-col xl:flex lg:gap-9 gap-3 lg:w-[450px] xl:w-[650px] lg:h-[390px] py-8 sm:px-7 lg:px-2 rounded-lg hover:border hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-500/70 hover:bg-slate-800/50  ">
+      <div className="grid grid-col xl:flex lg:gap-9 gap-3 lg:w-[450px] xl:w-[650px] lg:h-[390px] py-8 px-4 sm:px-7 lg:px-2 rounded-lg hover:border hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-500/70 hover:bg-slate-800/50  ">
         <div>
           <h2 className="text-gray-500 ">2023 — March 2024</h2>
         </div>
@@ -42,7 +42,7 @@ const experience = () => {
           </div>
         </div>
       </div>
-      <div className=" grid grid-col xl:flex lg:gap-9 gap-3 lg:w-[450px] xl:w-[650px] lg:h-[320px] py-8 sm:px-7 lg:px-2 rounded-lg hover:border hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-500/70 hover:bg-slate-800/50">
+      <div className=" grid grid-col xl:flex lg:gap-9 gap-3 lg:w-[450px] xl:w-[650px] lg:h-[320px] py-8 px-4 sm:px-7 lg:px-2 rounded-lg hover:border hover:text-[#45aea4] hover:border-slate-800/50 hover:border-t-teal-500/70 hover:bg-slate-800/50">
         <div>
           <h2 className="text-gray-500">Sep 2024 — Present</h2>
         </div>
